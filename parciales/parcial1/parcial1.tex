@@ -1,0 +1,141 @@
+% article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+\usepackage{lipsum}     %lorem ipsum text
+\usepackage{titlesec}   %Section settings
+\usepackage{titling}    %Title settings
+\usepackage[margin=10em]{geometry}  %Adjusting margins
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{amsmath}    %Display equations options
+\usepackage{amssymb}    %More symbols
+\usepackage{xcolor}     %Color settings
+\usepackage{pagecolor}
+\usepackage{mdframed}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\graphicspath{ {./Images/} }
+\setlength{\columnsep}{1cm}
+
+% ====| color de la pagina y del fondo |==== %
+\pagecolor{white}
+\color{black}
+
+
+
+\begin{document}
+    %========================{TITLE}====================%
+    \title{\rmfamily\normalfont\spacedallcaps{ Parcial 1 Teoría de grafos }}
+    \author{\spacedlowsmallcaps{Rodrigo Castillo}}
+    \date{\today}
+
+    \maketitle
+
+
+    %=======================NOTES GOES HERE===================%
+    \section{Punto1}
+        \subsection{el grafo G:}
+            grafo G:
+            \begin{figure}[h]
+                \centering
+                \incfig{grafouno}
+                \caption{grafouno}
+                \label{fig:G}
+            \end{figure}
+        \subsection{El grafo H:}
+            grafo h:
+            \begin{figure}[h]
+                \centering
+                \incfig{h}
+                \caption{H}
+                \label{fig:h}
+            \end{figure}
+        \subsection{Es G complemento $ \equiv   $  H complemento?}
+            Por teorema visto en clase, sabemos que G es isomorfo a H si y solo
+            si G complemento es isomorfo a H complemento, sin embargo, en H el
+            grado máximo de un vértice es 4 mientras que en G es 3 , y esto es
+            un invariante, por lo tanto, H no es isomorfo  G, y esto implica
+            que H complemento tampoco es isomorfo a G.
+
+            \section{Sea $ G  $  un grafo simple y $ A(G)  $ su matriz de
+            adyacencia. Encuentre una manera de escribir $ A(Gcomplemento)  $
+            en funcion de $ A(G)  $ . }
+            Sea $ G  $  un grafo simple, por lo tanto la matriz de adyacencia $
+            A(G)  $ es una matriz de $ 0s  $ y $ 1s  $ .
+            \\ por lo tanto, la matriz resultante de invertir los $ 0s  $ y los
+            $ 1s  $ de A será la matriz que $ A(Gcomplemento)  $ .
+            sea $ A  $ la matriz de adyacencia de un grafo G, para cada $ a_{ij} \in A $ se tiene que:
+            \\ si $ a_{ij} = 1 \implies a_{ij} = 0 $
+            \\ si $ a_{ij} = 0 \implies a_{ij} = 1  $
+            \\ como resultante de esto obtendremos la matriz de $ A(Gcomplemento)  $
+
+            \section{Complete la siguiente tabla}
+                \subsection{$ K_4  $ }
+                    \subsubsection{numero cromático}
+                        como todos los vértices de $ K_4 $ están conectados,
+                        entonces el número cromático de $ K_4  $ es 4.
+                    \subsubsection{Cintura}
+                        si no estoy mal, la cintura es la longitud del ciclo
+                        mas corto de un grafo, que en este caso, sería 3
+                    \subsubsection{Euleriano}
+                        tiene un ciclo euleriano.
+                \subsection{$ K_{2,4}  $ }
+                    \subsubsection{numero cromático}
+                        3
+                    \subsubsection{Cintura}
+                        4
+                    \subsection{Euleriano}
+                        tiene un ciclo euleriano
+                \subsection{$ P_{2020}  $ }
+                    \subsubsection{numero cromático}
+                        2020
+                    \subsubsection{Cintura}
+                        $ ???  $
+                    \subsubsection{Euleriano}
+                        Circuito
+
+
+
+            \section{Si $ u  $ y $ v  $ son los únicos vértices de grado impar
+            en un grafo simple $ G  $ entonces $ G  $ contiene un $ u-v camino
+            $ .}
+                \subsection{Contraejemplo:}
+                    Sea $ G  $ el grafo dibujado a continuación , note que $ G
+                    $ es un grafo simple en el cuál $ u  $ y $ v  $ son los
+                    únicos vértices de grado impar, sin embargo, no contiene
+                    una $ u-v  $ caminata y por lo tanto $ G  $ no contiene un $
+                    u-v  $ camino.
+                    \begin{figure}[ht]
+                        \centering
+                        \incfig{contraejemplo}
+                        \caption{contraejemplo}
+                        \label{fig:contraejemplo}
+                    \end{figure}
+
+
+
+
+
+
+
+
+
+    %=======================NOTES ENDS HERE===================%
+
+    % bib stuff
+    \nocite{*}
+    \addtocontents{toc}{\protect\vspace{\beforebibskip}}
+    \addcontentsline{toc}{section}{\refname}
+    \bibliographystyle{plain}
+    \bibliography{../Bibliography}
+\end{document}

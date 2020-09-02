@@ -1,0 +1,67 @@
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'grafoh.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{680.31496063bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.5)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{grafoh.pdf}}%
+    \put(0.27716701,0.48116194){\color[rgb]{0,0,1}\makebox(0,0)[lt]{\begin{minipage}{0.12860548\unitlength}\raggedright $H$\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{grafoh.pdf}}%
+    \put(0.69956956,0.46674925){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.1086495\unitlength}\raggedright \end{minipage}}}%
+    \put(2.48481318,1.13277909){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.72910207\unitlength}\raggedright \end{minipage}}}%
+    \put(0.6862655,0.47118392){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.12860548\unitlength}\raggedright \end{minipage}}}%
+    \put(1.10201607,0.6585488){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}S\end{tabular}}}}%
+    \put(0.26164567,0.48892261){\color[rgb]{0,0,1}\makebox(0,0)[lt]{\begin{minipage}{0.13525749\unitlength}\raggedright \end{minipage}}}%
+    \put(2.65661316,1.09925715){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.43997548\unitlength}\raggedright --\end{minipage}}}%
+    \put(0.66713863,0.48447906){\color[rgb]{0,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.19833852\unitlength}\raggedright $H^c$\end{minipage}}}%
+  \end{picture}%
+\endgroup%
