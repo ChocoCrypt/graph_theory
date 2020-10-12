@@ -41,9 +41,6 @@
 
     \maketitle
 
-
-     % ====| Loguito |==== %
-    \includegraphics[width=0.1\linewidth]{negro_cara.png}
     %=======================NOTES GOES HERE===================%
     \section{sean $x$ y $y$ vertices adyacentes en un grafo conexo , $G$ , para
     todo $z$ en $V(G)$  demuestre que :}
@@ -51,7 +48,9 @@
         |d_G (x,z) - d_G (y,z) <=1 |
     \end{equation}
     \textbf{Demostración:}
+    \\
     % ====|ACA EMPIEZA EL PUNTO 1|====
+    \color{red} preguntar que significa esa notación \color{black}
 
 
 
@@ -69,13 +68,67 @@
         \end{enumerate}
         \end{center}
         % ====|ACA EMPIEZA EL PUNTO 2|====
+        \textbf{Excentricidades:}(las excentricidades se definen como el camino
+        mas corto al vértice mas lejano )
+        \\
+        $excentricidad(a) = 4$
+        \\
+        $excentricidad(b) = 3$
+        \\
+        $excentricidad(c) = 2$
+        \\
+        $excentricidad(d) = 3$
+        \\
+        $excentricidad(e) = 3$
+        \\
+        $excentricidad(f) = 4$
+        \\
+        $excentricidad(g) =  4$
+        \\
+        $excentricidad(h) = 4$
+        \\
+        \textbf{$rad(G_1)$}
+        \\
+        el radio se define como el \textbf{mínimo de todas las excentricidades}
+        , luego es 2
+        \\
+        \textbf{$diam(G_1)$}
+        \\
+        el diametro de un grafo se define como el \textbf{maximo de todas las
+        excentricidades}  luego es 4.
 
+        \textbf{índice de Wiener:}
+        \\
+        el índice de Wiener se calcula como :
+        \begin{equation}
+            D(G) = \sum_{u,v \in V(G)}^{} d_G((u,v))
+        \end{equation}
+        esto equivale a la sumatoria de los caminos de todos los vértices de
+        esa vuelta por lo tanto...
+        \\
+        \color{red} preguntar si hay algún teorema que calcule el índice de
+        wienner \color{black}
 
+        % ====| melos |==== %
 
         % ====|ACA TERMINA EL PUNTO 2|==== %
 
     \section{Calcule el centro y el radio del biclicke $K_{m,n}$}
         % ====|ACA EMPIEZA EL PUNTO 3|====
+        $K_{mn} $es el grafo:
+            \begin{center}
+            \incfig{kmn}% ====| figura del grafo K_{mn} |==== %
+            \end{center}
+
+            \textbf{Centro:}
+            \\
+            el centro de un grafo se define como el grafo inducido por los
+            vértices de mínima excentricidad.
+            \\
+            \textbf{Radio:}
+            \\
+            el radio de un grafo se define como ... \color{red} preguntarle al
+            chaman \color{black}.
 
 
 
@@ -86,6 +139,7 @@
             \includegraphics[width=0.4\linewidth]{arbolp4}
         \end{center}
         % ====|ACA EMPIEZA EL PUNTO 4|====
+        \color{red} preguntar código de Prufer  \color{black}
 
 
 
@@ -93,6 +147,7 @@
 
     \section{Construya el arbol $T$ a partir del código de Prufer $322114211$}
         % ====|ACA EMPIEZA EL PUNTO 5|====
+        \color{red} preguntar código de Prufer  \color{black}
 
 
 
@@ -103,6 +158,7 @@
     contienen un valor , $(b)$ contienen exactamente 2 valores , $(c)$ tienen
     distintos valores en todas las posiciones}
         % ====|ACA EMPIEZA EL PUNTO 6|====
+        \color{red} preguntar código de Prufer  \color{black}
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.30)  10 OCT 2020 13:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.7.30)  12 OCT 2020 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,85 +1021,119 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 42.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<./Images/negro_cara.png, id=1, 244.7544pt x 265.9536pt>
-File: ./Images/negro_cara.png Graphic file (type png)
-<use ./Images/negro_cara.png>
-Package pdftex.def Info: ./Images/negro_cara.png  used on input line 46.
-(pdftex.def)             Requested size: 39.75317pt x 43.19463pt.
-<./Images/grafop2.png, id=3, 381.425pt x 156.585pt>
+<./Images/grafop2.png, id=1, 381.425pt x 156.585pt>
 File: ./Images/grafop2.png Graphic file (type png)
 <use ./Images/grafop2.png>
-Package pdftex.def Info: ./Images/grafop2.png  used on input line 62.
+Package pdftex.def Info: ./Images/grafop2.png  used on input line 61.
 (pdftex.def)             Requested size: 159.0006pt x 65.27304pt.
-<./Images/arbolp4.png, id=4, 378.41376pt x 226.8475pt>
-File: ./Images/arbolp4.png Graphic file (type png)
-<use ./Images/arbolp4.png>
-Package pdftex.def Info: ./Images/arbolp4.png  used on input line 86.
-(pdftex.def)             Requested size: 159.0006pt x 95.31683pt.
-<./Images/grafop7.png, id=5, 248.93pt x 113.42375pt>
-File: ./Images/grafop7.png Graphic file (type png)
-<use ./Images/grafop7.png>
-Package pdftex.def Info: ./Images/grafop7.png  used on input line 113.
-(pdftex.def)             Requested size: 198.75378pt x 90.56258pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/negro_cara.png> <./Images/grafop2.png> <./Images/arbolp4.png>]
-<./Images/grafop9.png, id=24, 452.69125pt x 237.88875pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/grafop2.png>] (./figures/kmn.pdf_tex
+<./figures/kmn.pdf, id=21, page=1, 682.86612pt x 341.43306pt>
+File: ./figures/kmn.pdf Graphic file (type pdf)
+<use ./figures/kmn.pdf, page 1>
+Package pdftex.def Info: ./figures/kmn.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 397.50757pt x 198.75546pt.
+<./figures/kmn.pdf, id=22, page=2, 682.86612pt x 341.43306pt>
+File: ./figures/kmn.pdf Graphic file (type pdf)
+<use ./figures/kmn.pdf, page 2>
+Package pdftex.def Info: ./figures/kmn.pdf , page2 used on input line 58.
+(pdftex.def)             Requested size: 397.50757pt x 198.75546pt.
+<./figures/kmn.pdf, id=23, page=3, 682.86612pt x 341.43306pt>
+File: ./figures/kmn.pdf Graphic file (type pdf)
+<use ./figures/kmn.pdf, page 3>
+Package pdftex.def Info: ./figures/kmn.pdf , page3 used on input line 63.
+(pdftex.def)             Requested size: 397.50757pt x 198.75546pt.
+<./figures/kmn.pdf, id=24, page=4, 682.86612pt x 341.43306pt>
+File: ./figures/kmn.pdf Graphic file (type pdf)
+<use ./figures/kmn.pdf, page 4>
+Package pdftex.def Info: ./figures/kmn.pdf , page4 used on input line 65.
+(pdftex.def)             Requested size: 397.50757pt x 198.75546pt.
+<./figures/kmn.pdf, id=25, page=5, 682.86612pt x 341.43306pt>
+File: ./figures/kmn.pdf Graphic file (type pdf)
+<use ./figures/kmn.pdf, page 5>
+Package pdftex.def Info: ./figures/kmn.pdf , page5 used on input line 71.
+(pdftex.def)             Requested size: 397.50757pt x 198.75546pt.
+)
+<./Images/arbolp4.png, id=26, 378.41376pt x 226.8475pt>
+File: ./Images/arbolp4.png Graphic file (type png)
+<use ./Images/arbolp4.png>
+Package pdftex.def Info: ./Images/arbolp4.png  used on input line 139.
+(pdftex.def)             Requested size: 159.0006pt x 95.31683pt.
+ [2 <./figures/kmn.pdf> <./figures/kmn.pdf
+
+pdfTeX warning: pdflatex (file ./figures/kmn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/kmn.pdf
+
+pdfTeX warning: pdflatex (file ./figures/kmn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/kmn.pdf
+
+pdfTeX warning: pdflatex (file ./figures/kmn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures/kmn.pdf
+
+pdfTeX warning: pdflatex (file ./figures/kmn.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Images/arbolp4.png>]
+<./Images/grafop7.png, id=33, 248.93pt x 113.42375pt>
+File: ./Images/grafop7.png Graphic file (type png)
+<use ./Images/grafop7.png>
+Package pdftex.def Info: ./Images/grafop7.png  used on input line 169.
+(pdftex.def)             Requested size: 198.75378pt x 90.56258pt.
+<./Images/grafop9.png, id=34, 452.69125pt x 237.88875pt>
 File: ./Images/grafop9.png Graphic file (type png)
 <use ./Images/grafop9.png>
-Package pdftex.def Info: ./Images/grafop9.png  used on input line 133.
+Package pdftex.def Info: ./Images/grafop9.png  used on input line 189.
 (pdftex.def)             Requested size: 198.75378pt x 104.44267pt.
-<./Images/grafop10.png, id=25, 386.44376pt x 355.3275pt>
+<./Images/grafop10.png, id=35, 386.44376pt x 355.3275pt>
 File: ./Images/grafop10.png Graphic file (type png)
 <use ./Images/grafop10.png>
-Package pdftex.def Info: ./Images/grafop10.png  used on input line 143.
+Package pdftex.def Info: ./Images/grafop10.png  used on input line 199.
 (pdftex.def)             Requested size: 159.0006pt x 146.19485pt.
- [2 <./Images/grafop7.png> <./Images/grafop9.png>]
-<./Images/matrixp11.png, id=31, 281.05pt x 158.5925pt>
+ [3 <./Images/grafop7.png> <./Images/grafop9.png> <./Images/grafop10.png>]
+<./Images/matrixp11.png, id=42, 281.05pt x 158.5925pt>
 File: ./Images/matrixp11.png Graphic file (type png)
 <use ./Images/matrixp11.png>
-Package pdftex.def Info: ./Images/matrixp11.png  used on input line 165.
+Package pdftex.def Info: ./Images/matrixp11.png  used on input line 221.
 (pdftex.def)             Requested size: 159.0006pt x 89.72107pt.
-<./Images/tabfrec12.png, id=32, 441.65pt x 139.52126pt>
+<./Images/tabfrec12.png, id=43, 441.65pt x 139.52126pt>
 File: ./Images/tabfrec12.png Graphic file (type png)
 <use ./Images/tabfrec12.png>
-Package pdftex.def Info: ./Images/tabfrec12.png  used on input line 175.
+Package pdftex.def Info: ./Images/tabfrec12.png  used on input line 231.
 (pdftex.def)             Requested size: 159.0006pt x 50.22974pt.
-<./Images/arbolp13.png, id=33, 337.26pt x 330.23375pt>
+<./Images/arbolp13.png, id=44, 337.26pt x 330.23375pt>
 File: ./Images/arbolp13.png Graphic file (type png)
 <use ./Images/arbolp13.png>
-Package pdftex.def Info: ./Images/arbolp13.png  used on input line 192.
+Package pdftex.def Info: ./Images/arbolp13.png  used on input line 248.
 (pdftex.def)             Requested size: 159.0006pt x 155.68857pt.
- [3 <./Images/grafop10.png> <./Images/matrixp11.png> <./Images/tabfrec12.png>]
-<./Images/form14.png, id=40, 296.10625pt x 126.4725pt>
+<./Images/form14.png, id=45, 296.10625pt x 126.4725pt>
 File: ./Images/form14.png Graphic file (type png)
 <use ./Images/form14.png>
-Package pdftex.def Info: ./Images/form14.png  used on input line 203.
+Package pdftex.def Info: ./Images/form14.png  used on input line 259.
 (pdftex.def)             Requested size: 198.75378pt x 84.89436pt.
-<./Images/ultimografo.png, id=41, 407.5225pt x 179.67125pt>
+ [4 <./Images/matrixp11.png> <./Images/tabfrec12.png> <./Images/arbolp13.png>]
+<./Images/ultimografo.png, id=52, 407.5225pt x 179.67125pt>
 File: ./Images/ultimografo.png Graphic file (type png)
 <use ./Images/ultimografo.png>
-Package pdftex.def Info: ./Images/ultimografo.png  used on input line 213.
+Package pdftex.def Info: ./Images/ultimografo.png  used on input line 269.
 (pdftex.def)             Requested size: 159.0006pt x 70.10165pt.
 
 No file respuestas.bbl.
-[4 <./Images/arbolp13.png> <./Images/form14.png> <./Images/ultimografo.png>] (./respuestas.aux
+[5 <./Images/form14.png> <./Images/ultimografo.png>] (./respuestas.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 16893 strings out of 492982
- 294166 string characters out of 6134896
+ 16912 strings out of 492982
+ 294663 string characters out of 6134896
  472940 words of memory out of 5000000
- 20244 multiletter control sequences out of 15000+600000
+ 20259 multiletter control sequences out of 15000+600000
  539075 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,39p,10426b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on respuestas.pdf (4 pages, 272418 bytes).
+ 39i,12n,39p,10426b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on respuestas.pdf (5 pages, 283953 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 41 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
