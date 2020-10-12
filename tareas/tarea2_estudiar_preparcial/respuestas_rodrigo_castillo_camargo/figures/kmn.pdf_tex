@@ -56,9 +56,9 @@
     \put(0,0){\includegraphics[width=\unitlength,page=1]{kmn.pdf}}%
     \put(0.547682,0.35920842){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}...\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{kmn.pdf}}%
-    \put(0.14967019,0.31486174){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_1$\end{tabular}}}}%
-    \put(0.29047105,0.30931842){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_2$\end{tabular}}}}%
-    \put(0.44790188,0.2960144){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_3$\end{tabular}}}}%
+    \put(0.13636618,0.41242453){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_1$\end{tabular}}}}%
+    \put(0.27792791,0.40927162){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_2$\end{tabular}}}}%
+    \put(0.40466382,0.41796786){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_3$\end{tabular}}}}%
     \put(0.6862655,0.3603171){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}$k_m$\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=3]{kmn.pdf}}%
     \put(0.67628752,0.0643027){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}...\end{tabular}}}}%

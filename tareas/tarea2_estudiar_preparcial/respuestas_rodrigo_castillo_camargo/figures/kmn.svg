@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.99437388"
-     inkscape:cx="344.01989"
-     inkscape:cy="180.70923"
+     inkscape:zoom="0.9943739"
+     inkscape:cx="298.57039"
+     inkscape:cy="275.53054"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -100,35 +100,35 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="35.920845"
-       y="221.43318"
+       x="32.727882"
+       y="198.01811"
        id="text874"><tspan
          sodipodi:role="line"
          id="tspan872"
-         x="35.920845"
-         y="221.43318"
+         x="32.727882"
+         y="198.01811"
          style="stroke-width:0.26458332">$k_1$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="69.713051"
-       y="222.76358"
+       x="66.702698"
+       y="198.77481"
        id="text878"><tspan
          sodipodi:role="line"
          id="tspan876"
-         x="69.713051"
-         y="222.76358"
+         x="66.702698"
+         y="198.77481"
          style="stroke-width:0.26458332">$k_2$</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="107.49645"
-       y="225.95654"
+       x="97.119316"
+       y="196.68771"
        id="text882"><tspan
          sodipodi:role="line"
          id="tspan880"
-         x="107.49645"
-         y="225.95654"
+         x="97.119316"
+         y="196.68771"
          style="stroke-width:0.26458332">$k_3$</tspan></text>
     <text
        xml:space="preserve"
@@ -264,7 +264,7 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 85.411785,207.06485 109.6251,278.37438"
+       d="m 86.470119,207.06485 24.213321,71.30953"
        id="path963"
        inkscape:connector-curvature="0" />
     <path

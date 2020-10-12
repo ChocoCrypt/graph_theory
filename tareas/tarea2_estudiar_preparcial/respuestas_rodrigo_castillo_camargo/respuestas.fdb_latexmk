@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex respuestas"] 1602525485 "respuestas.aux" "respuestas.bbl" "respuestas" 1602525486
+["bibtex respuestas"] 1602534985 "respuestas.aux" "respuestas.bbl" "respuestas" 1602534986
   "../Bibliography.bib" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "respuestas.aux" 1602525486 2763 6b23c2995977abac90d57d1963d148d1 ""
+  "respuestas.aux" 1602534986 2767 7d4c13d011772a996976743d144107c3 ""
   "respuestas.bcf" 0 -1 0 ""
   (generated)
-  "respuestas.blg"
   "respuestas.bbl"
-["pdflatex"] 1602525485 "respuestas.tex" "respuestas.pdf" "respuestas" 1602525486
+  "respuestas.blg"
+["pdflatex"] 1602534985 "respuestas.tex" "respuestas.pdf" "respuestas" 1602534986
   "/etc/texmf/web2c/texmf.cnf" 1595594532 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -139,12 +139,12 @@
   "Images/matrixp11.png" 1602360120 20694 b3bc9d003a9cff6779e5ccbeb3c25b14 ""
   "Images/tabfrec12.png" 1602360120 12631 65db616a279deb7f11e111bd921831da ""
   "Images/ultimografo.png" 1602360120 28709 81f71799607fa01425e19fcffd250a3d ""
-  "figures/kmn.pdf" 1602524522 5153 6864abcfc919f8f00742d843a10bf39e ""
-  "figures/kmn.pdf_tex" 1602524522 3795 0946a39fa5e91ed474b67ee251307d65 ""
-  "respuestas.aux" 1602525486 2763 6b23c2995977abac90d57d1963d148d1 ""
+  "figures/kmn.pdf" 1602526652 5158 49b8d86fbc35093c1d0aff89ef866d46 ""
+  "figures/kmn.pdf_tex" 1602526652 3796 1b2ab316b36505cb1464fa1980ce8108 ""
+  "respuestas.aux" 1602534986 2767 7d4c13d011772a996976743d144107c3 ""
   "respuestas.bbl" 0 -1 0 "bibtex respuestas"
-  "respuestas.tex" 1602525485 9294 c99363519ef65cfed1ce2e2f597ffa88 ""
+  "respuestas.tex" 1602534983 9573 0cfb12cb0c50309f3d067aff76ec9c6b ""
   (generated)
-  "respuestas.pdf"
-  "respuestas.log"
   "respuestas.aux"
+  "respuestas.log"
+  "respuestas.pdf"
