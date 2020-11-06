@@ -1,0 +1,135 @@
+% article example for classicthesis.sty
+\documentclass[10pt,a4paper]{article} % KOMA-Script article scrartcl
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./figures/}{#1.pdf_tex}
+}
+\usepackage{lipsum}     %lorem ipsum text
+\usepackage{titlesec}   %Section settings
+\usepackage{titling}    %Title settings
+\usepackage[margin=10em]{geometry}  %Adjusting margins
+\usepackage{setspace}
+\usepackage{listings}
+\usepackage{amsmath}    %Display equations options
+\usepackage{amssymb}    %More symbols
+\usepackage{xcolor}     %Color settings
+\usepackage{pagecolor}
+\usepackage{mdframed}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{graphicx}
+\graphicspath{ {./Images/} }
+\setlength{\columnsep}{1cm}
+
+
+
+\begin{document}
+    %========================{TITLE}====================%
+\title{{  Taller 3 Teoría de grafos}}
+    \author{{Rodrigo Castillo}}
+    \date{\today}
+
+    \maketitle
+
+
+    %=======================NOTES GOES HERE===================%
+    \section{Utilice el algoritmo de Ford Fulkerson para encontrar el flujo maximo de la siguiente red...}
+
+\begin{figure}[ht]
+    \centering
+    \incfig{flujomax}
+    \caption{flujomax}
+    \label{fig:flujomax}
+\end{figure}
+
+\begin{figure}[ht]
+    \centering
+    \incfig{flujomaxdone}
+    \caption{flujomaxdone}
+    \label{fig:flujomaxdone}
+\end{figure}
+
+    \section{Punto2 }
+    % ====|ACA EMPIEZA EL PUNTO 2|====
+
+
+
+    % ====|ACA TERMINA EL PUNTO 2|==== %
+
+
+    \newpage
+    \section{podrian 5 casas conectarse con 2 servicios sin cruzar las conexiones?}
+    si se puede pues el grafo es plano, además no hay subgrafos de $K_5$ o $K_{3,3}$
+    \begin{figure}[ht]
+        \centering
+        \incfig{conex}
+        \caption{conecciones en el grafo plano}
+        \label{fig:conex}
+    \end{figure}
+
+
+    \section{Suponga que un grafo simple, conexo , plano $3-regular$ tiene 20
+    vertices , ¿cuantas caras tiene el embebimiento libre de cruces del grafo?}
+        \textbf{Teorema: C-A+V = 2: }
+        como el grafo es 3 regular entonces cada vértice tiene 3 aristas, luego
+        $V=20$ , $A=(20*3/2)$ , luego
+        \\
+        $ C = A -V +2$
+        \\
+        $C = 30 -20 +2 $
+        \\
+        $C = 12$.
+
+    \section{Dibujar la triangulación del grafo dado}
+        \begin{figure}[ht]
+            \centering
+            \incfig{triangulacion}
+            \caption{triangulacion}
+            \label{fig:triangulacion}
+        \end{figure}
+
+    \newpage
+    \section{Demuestre que el siguiente grafo es plano:}
+    tambien se puede decir que es plano puesto que no tiene subgrafos de $K_5$ o $K_{3,3}$
+    \begin{figure}[ht]
+        \centering
+        \incfig{plano}
+        \caption{plano}
+        \label{fig:plano}
+    \end{figure}
+
+    \section{Demuestre que el grafo no es plano}
+    \textbf{teorema:un grafo es plano si y solo si no contiene a $K_5$ o $K_{3,3}$.}
+    \\
+    Note que el grafo dado es $K_6$ , luego contiene a $K_5$ , luego no es
+    plano por el teorema anterior.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    %=======================NOTES ENDS HERE===================%
+
+    % bib stuff
+    \nocite{*}
+    \addtocontents{toc}{{}}
+    \addcontentsline{toc}{section}{\refname}
+    \bibliographystyle{plain}
+    \bibliography{../Bibliography}
+\end{document}
