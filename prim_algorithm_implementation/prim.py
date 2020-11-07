@@ -6,32 +6,32 @@ import networkx as nx
 from matplotlib import animation, rc
 import matplotlib.pyplot as plt
 
-
 rc('animation', html='html5')
 
-
-
 #Aca defino el grafo   |vie nov  6 13:05:11 -05 2020|
+
+#el numero de nodos del grafo aleatorio   |vie nov  6 13:33:12 -05 2020|
 NUM_NODES = 50
 
 def random_node():
     return randint(0, NUM_NODES-1)
 
 def random_weight():
-    return uniform(0, 1)
+    return randint(0, 10)
 
 
 
 #aca definoe l grafo usando la libreria de networkx(que es una chimba de librería para grafos)   |vie nov  6 13:05:58 -05 2020|
 #soy consciente de que el grafo aleatorio se puede definir en esta librería pero pues igual severo   |vie nov  6 13:06:25 -05 2020|
 #el grafo también puede definirse como un digrafo   |vie nov  6 13:06:44 -05 2020|
+print("creating graph...")
 graph = nx.Graph()
 
 #a todos los nodos que creé les pongo un peso aleatorio con eso el algoritmo funciona, sin embargo podría definir otro grafo de otra manera o simplementa llamar un archivo json predefinido   |vie nov  6 13:19:25 -05 2020|
-
 for i in range(1, NUM_NODES):
     graph.add_edge(i-1, i, weight=random_weight())
 
+#genero las aristas aleatorias    |vie nov  6 15:23:24 -05 2020|
 for _ in range(NUM_NODES * 5):
     graph.add_edge(
         random_node(), random_node(), weight=random_weight()
@@ -56,6 +56,7 @@ fig, ax = plt.subplots(figsize=(6,4))
 
 #Tarea: Algoritmo de prim   |vie nov  6 13:08:20 -05 2020|
 def prims():
+    print("prim...")
     pqueue = PriorityQueue()
     #agarro un nodo aleatorio para empezar   |vie nov  6 13:22:28 -05 2020|
     start_node = random_node()
@@ -92,7 +93,7 @@ def prims():
 
 
 
-#   |vie nov  6 13:16:29 -05 2020|
+#esto es para dibujar el arbol de expansion minima   |vie nov  6 13:16:29 -05 2020|
 def update(mst_edges):
     ax.clear()
     nx.draw_networkx_nodes(graph, pos, node_size=25, ax=ax)
@@ -124,3 +125,6 @@ ani = animation.FuncAnimation(
 ani
 
 plt.show()
+print('Listos, el arbol de expansión mínima del grafo ya está completo')
+print("guardando...")
+ani.save("ultima_animacion.mp4")
