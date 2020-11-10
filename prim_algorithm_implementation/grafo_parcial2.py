@@ -144,5 +144,6 @@ ani = animation.FuncAnimation(
 ani
 
 plt.show()
+ani.save("animacion_grafo_parcial.mp4")
 print('Listos, el arbol de expansión mínima del grafo ya está completo')
 print("guardando...")
