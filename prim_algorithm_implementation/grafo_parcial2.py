@@ -1,65 +1,83 @@
-#Rodrigo castillo
-#para hacer este trabajo me basé en el trabajo de kylekizirian en su github
 from queue import PriorityQueue
 from random import randint, uniform
 import networkx as nx
 from matplotlib import animation, rc
 import matplotlib.pyplot as plt
 
+
+
+
+NUM_NODES =28
 rc('animation', html='html5')
 
-#Aca defino el grafo   |vie nov  6 13:05:11 -05 2020|
 
-#el numero de nodos del grafo aleatorio   |vie nov  6 13:33:12 -05 2020|
-NUM_NODES = 50
-
-def random_node():
-    return randint(0, NUM_NODES-1)
-
-def random_weight():
-    return randint(0, 10)
-
-
-
-#aca definoe l grafo usando la libreria de networkx(que es una chimba de librería para grafos)   |vie nov  6 13:05:58 -05 2020|
-#soy consciente de que el grafo aleatorio se puede definir en esta librería pero pues igual severo   |vie nov  6 13:06:25 -05 2020|
-#el grafo también puede definirse como un digrafo   |vie nov  6 13:06:44 -05 2020|
-print("creating graph...")
 graph = nx.Graph()
+#Lineas horizontales   |mar nov 10 10:53:16 -05 2020|
+graph.add_edge('a','b' , weight=1)
+graph.add_edge('b','c' , weight=2)
+graph.add_edge('c','d' , weight=1)
 
-#a todos los nodos que creé les pongo un peso aleatorio con eso el algoritmo funciona, sin embargo podría definir otro grafo de otra manera o simplementa llamar un archivo json predefinido   |vie nov  6 13:19:25 -05 2020|
-for i in range(1, NUM_NODES):
-    graph.add_edge(i-1, i, weight=random_weight())
+graph.add_edge('e','f' , weight=2)
+graph.add_edge('f','g' , weight=3)
+graph.add_edge('g','h' , weight=2)
 
-#genero las aristas aleatorias    |vie nov  6 15:23:24 -05 2020|
-for _ in range(NUM_NODES * 5):
-    graph.add_edge(
-        random_node(), random_node(), weight=random_weight()
-    )
+graph.add_edge('i','j' , weight=3)
+graph.add_edge('j','k' , weight=4)
+graph.add_edge('k','l' , weight=3)
 
-pos = nx.random_layout(graph)
+graph.add_edge('m','n' , weight=2)
+graph.add_edge('n','o' , weight=2)
+graph.add_edge('o','p' , weight=3)
+
+#lineas verticales   |mar nov 10 10:53:24 -05 2020|
+graph.add_edge('a','e' , weight=1)
+graph.add_edge('e','i' , weight=2)
+graph.add_edge('i','m' , weight=3)
+
+graph.add_edge('b','f' , weight=3)
+graph.add_edge('f','j' , weight=3)
+graph.add_edge('j','n' , weight=4)
+
+graph.add_edge('c','g' , weight=3)
+graph.add_edge('g','k' , weight=4)
+graph.add_edge('k','o' , weight=3)
+
+
+graph.add_edge('d','h' , weight=1)
+graph.add_edge('h','l' , weight=3)
+graph.add_edge('l','p' , weight=2)
+
+#lineas por fuera   |mar nov 10 10:58:01 -05 2020|
+graph.add_edge('a','m' , weight=2)
+graph.add_edge('a','d' , weight=2)
+graph.add_edge('d','p' , weight=2)
+graph.add_edge('m','p' , weight=2)
 
 
 
-#defino las tuplas para insertar en el grafo y para poner en la grafica la cual luego animare   |vie nov  6 13:18:11 -05 2020|
+#imprmo el grafo del parcial   |mar nov 10 11:09:41 -05 2020|
+nx.draw(graph)
+plt.show()
+
+
+
+
+
+
+
 all_edges = set(
     tuple(sorted((n1, n2))) for n1, n2 in graph.edges()
 )
 edges_in_mst = set()
 nodes_on_mst = set()
-
-fig, ax = plt.subplots(figsize=(6,4))
-
-
-
-
-
+pos = nx.random_layout(graph)
 #Tarea: Algoritmo de prim   |vie nov  6 13:08:20 -05 2020|
+fig, ax = plt.subplots(figsize=(6,4))
 def prims():
     print("prim...")
     pqueue = PriorityQueue()
     #agarro un nodo aleatorio para empezar   |vie nov  6 13:22:28 -05 2020|
-    start_node = random_node()
+    start_node = ('a')
     for neighbor in graph.neighbors(start_node):
         edge_data = graph.get_edge_data(start_node, neighbor)
         edge_weight = edge_data["weight"]
