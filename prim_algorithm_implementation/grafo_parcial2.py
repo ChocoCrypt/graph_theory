@@ -146,4 +146,3 @@ ani
 plt.show()
 print('Listos, el arbol de expansión mínima del grafo ya está completo')
 print("guardando...")
-ani.save("ultima_animacion.mp4")
