@@ -1,12 +1,13 @@
 # Fdb version 3
-["bibtex respuestas_rodrigo_castillo"] 1606858185 "respuestas_rodrigo_castillo.aux" "respuestas_rodrigo_castillo.bbl" "respuestas_rodrigo_castillo" 1606858186
+["bibtex respuestas_rodrigo_castillo"] 1606859404 "respuestas_rodrigo_castillo.aux" "respuestas_rodrigo_castillo.bbl" "respuestas_rodrigo_castillo" 1606859404
   "../Bibliography.bib" 0 -1 0 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1480098433 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "respuestas_rodrigo_castillo.aux" 1606858186 1565 5ef8f518b0b4616b20d71dbf3324b833 ""
+  "respuestas_rodrigo_castillo.aux" 1606859404 1687 cd768d3c025da110c841cbc4b3932daa ""
   "respuestas_rodrigo_castillo.bcf" 0 -1 0 ""
   (generated)
+  "respuestas_rodrigo_castillo.blg"
   "respuestas_rodrigo_castillo.bbl"
-["pdflatex"] 1606858185 "respuestas_rodrigo_castillo.tex" "respuestas_rodrigo_castillo.pdf" "respuestas_rodrigo_castillo" 1606858186
+["pdflatex"] 1606859404 "respuestas_rodrigo_castillo.tex" "respuestas_rodrigo_castillo.pdf" "respuestas_rodrigo_castillo" 1606859404
   "/etc/texmf/web2c/texmf.cnf" 1595594532 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
@@ -135,12 +136,14 @@
   "figures/grafoplano.pdf_tex" 1606853961 3057 c6d166fc2d011dbf1cf891a0dddddcde ""
   "figures/problemacaballo.pdf" 1606857160 3784 ef961790a47b2a277b2de4ad7438e185 ""
   "figures/problemacaballo.pdf_tex" 1606857160 3838 b985ea639d094a14dcc97c2998c9a581 ""
+  "figures/resultado.pdf" 1606858606 1713 c184637a9d643c3037acd6447aac0831 ""
+  "figures/resultado.pdf_tex" 1606858606 3242 ab93507a441c9512e167664cd9ff31ec ""
   "figures/tablero.pdf" 1606856250 2568 b94219edc9f35b8211e6e50d4faddab8 ""
   "figures/tablero.pdf_tex" 1606856250 3304 a0a50dbbba47d2e95880034052224d43 ""
-  "respuestas_rodrigo_castillo.aux" 1606858186 1565 5ef8f518b0b4616b20d71dbf3324b833 ""
+  "respuestas_rodrigo_castillo.aux" 1606859404 1687 cd768d3c025da110c841cbc4b3932daa ""
   "respuestas_rodrigo_castillo.bbl" 0 -1 0 "bibtex respuestas_rodrigo_castillo"
-  "respuestas_rodrigo_castillo.tex" 1606858184 5036 c0a1978f8bae671c58f9353517c941a4 ""
+  "respuestas_rodrigo_castillo.tex" 1606859399 5286 2b641685720cf9ec3e03f1924424cf7d ""
   (generated)
-  "respuestas_rodrigo_castillo.log"
   "respuestas_rodrigo_castillo.pdf"
   "respuestas_rodrigo_castillo.aux"
+  "respuestas_rodrigo_castillo.log"

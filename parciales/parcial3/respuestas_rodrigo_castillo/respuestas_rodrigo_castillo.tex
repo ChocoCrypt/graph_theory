@@ -42,7 +42,13 @@
 
     %=======================NOTES GOES HERE===================%
     \section{Punto 2}
-    \textbf{Algoritmo de Ford Fulkerson}
+    \textbf{Resultado del Algoritmo de Ford Fulkerson}
+\begin{figure}[ht]
+    \centering
+    \incfig{resultado}
+    \caption{resultado}
+    \label{fig:resultado}
+\end{figure}
 
     \begin{figure}[h!]
         \centering
@@ -52,6 +58,7 @@
     \end{figure}
 
 
+    \newpage
     \section{Punto 3: Determine si el grafo dado es plano }
     \begin{figure}[h!]
         \centering
@@ -71,6 +78,7 @@
     \end{figure}
 
 
+    \newpage
     \section{Punto 4:Algoritmo del coloreado voraz}
     \textbf{el grafo de los estudiantes es de la siguiente manera:}
     \\
@@ -89,20 +97,20 @@
     \textbf{por lo que son necesarias 3 rutas}
 
 
+    \newpage
     \section{Punto 5 el tour del caballo}
-    \textbf{a:modelo del problema}
     % ====|ACA EMPIEZA EL PUNTO 5-a|====
-\begin{figure}[ht]
-    \centering
-    \incfig{problemacaballo}
-    \caption{problemacaballo}
-    \label{fig:problemacaballo}
-\end{figure}
+
+    \begin{figure}[ht]
+        \centering
+        \incfig{problemacaballo}
+        \caption{Grafo del problema}
+        \label{fig:problemacaballo}
+    \end{figure}
 
 
 
-    % ====|ACA TERMINA EL PUNTO 5-a|==== %
-    \textbf{b:problema en un tablero 3x3}
+    \textbf{a:problema }
     \\
     para modelar este problema, haremos un grafo en el cuál cada vértice
     represente una casilla del ajedrez y cada arista represente los posibles
@@ -119,18 +127,20 @@
     el problema de encontrar  un tour de caballo en un tablero de ajedrez es
     entonces análogo a encontrar un \textbf{recorrido hamiltoniano}  en el grafo definido
     previamente
-    % ====|ACA EMPIEZA EL PUNTO 5-b|====
 
     \newpage
+    \textbf{b:problema en una casilla 3x3}
+    \\
     representé este problema en el grafo $H$ , en el cuál sus vértices
     representan cada cuadro de un tablero de ajedrez y donde sus aristas
     representan los posibles movimientos de un caballo en ella .
     \\
-    note que los movimientos de un caballo en un tablero de ajedrez , un
-    grafo represeentan caminos de longitud 3 , además , en un tablero de
+    note que los movimientos de un caballo en un tablero de ajedrez , en su grafo representante ,
+    se muestran caminos de longitud 3 , además , en un tablero de
     ajedrez de 3x3 existe un vértice ($E$) cuya excentricidad es $2$ , por lo que no
     existe un camino de longitud 3 a ninguno de los otros vértices y por lo
-    tanto es imposible llegar a el
+    tanto es imposible llegar a el, luego no existe un camino hamiltoniano
+    puesto que no es posible llegar a uno de sus vértices de ninguna manera
 
     \begin{figure}[ht]
         \centering
